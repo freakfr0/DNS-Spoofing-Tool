@@ -1,7 +1,7 @@
 
-# Python Multitool
+# DNS-Spoofing-Tool
 
-This is a Python script that provides various network-related functionalities such as DNS spoofing, ARP spoofing, port scanning, and OS fingerprinting.
+This is a Tool that provides various network-related functionalities such as DNS spoofing, ARP spoofing, port scanning, and OS fingerprinting.
 
 ## Features
 
@@ -27,7 +27,7 @@ This is a Python script that provides various network-related functionalities su
 
 To use the script, run the following command:
 ```
-python script.py -t <target_ip> -g <gateway_ip> -m <mode>
+python Dyro.py -t <target_ip> -g <gateway_ip> -m <mode>
 ```
 
 Replace `<target_ip>` with the IP address of the target machine, `<gateway_ip>` with the IP address of the gateway, and `<mode>` with the desired mode (`dns`, `arp`, `port`, or `os`).
