@@ -1,5 +1,5 @@
 
-[![version](https://img.shields.io/badge/version-4.0-darkred)](https://github.com/your-username/your-repo/releases/tag/v1.0.0)
+[![version](https://img.shields.io/badge/version-4.0-purple)](https://github.com/your-username/your-repo/releases/tag/v1.0.0)
 [![license](https://img.shields.io/badge/license-Titan-darkred)](https://github.com/freakfr0/titanv4/blob/main/LICENSE)
 
 # DNS-Spoofing-Tool
