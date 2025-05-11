@@ -2,6 +2,43 @@ from scapy.all import *
 import threading
 import argparse
 
+def usage():
+print\
+"""
+
+                                ,-.
+                               ( O_)
+                              / `-/
+                             /-. /
+                            /   )
+                           /   /  
+              _           /-. /
+             (_)*-._     /   )
+               *-._ *-'**( )/    
+                   *-/*-._* `. 
+                    /     *-.'._
+                   /\       /-._*-._
+    _,---...__    /  ) _,-*/    *-(_)
+___<__(|) _   **-/  / /   /
+ '  `----' **-.   \/ /   /
+               )  ] /   /
+       ____..-'   //   /                       )
+   ,-**      __.,'/   /   ___                 /,
+  /    ,--**/  / /   /,-**   ***-.          ,'/
+ [    (    /  / /   /  ,.---,_   `._   _,-','
+  \    `-./  / /   /  /       `-._  *** ,-'
+   `-._  /  / /   /_,'            **--*
+       */  / /   /*         
+       /  / /   /
+      /  / /   /  
+     /  |,'   /  
+    :   /    /
+    [  /   ,'     ~>Saphyra DDoS Tool<~
+    | /  ,'      ~~>Created By Anonymous<~~
+    |/,-'
+    '
+                                                       
+""" 
 # Function to send spoofed DNS response
 def send_spoofed_dns_response(target_ip, gateway_ip):
     # Craft DNS response packet
